@@ -54,5 +54,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/nnutter/Git-Repository-Plugin-Hooks/issues"
+      },
+      "homepage" : "https://github.com/nnutter/Git-Repository-Plugin-Hooks",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/nnutter/Git-Repository-Plugin-Hooks.git",
+         "web" : "https://github.com/nnutter/Git-Repository-Plugin-Hooks"
+      }
+   },
    "version" : "0.01"
 }

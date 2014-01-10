@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/nnutter/Git-Repository-Plugin-Hooks.png?branch=master)](https://travis-ci.org/nnutter/Git-Repository-Plugin-Hooks)
 # NAME
 
 Git::Repository::Plugin::Hooks - Work with hooks in a Git::Repository

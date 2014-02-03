@@ -1,12 +1,15 @@
 use strict;
 use warnings;
 
-use Test::More tests => 3;
-
 use File::Temp qw();
 
-use Test::Git qw(test_repository);
+use Test::Git qw(has_git test_repository);
 use Git::Repository qw(Hooks);
+
+use Test::More;
+
+has_git();
+plan tests => 3;
 
 my $repo = test_repository();
 

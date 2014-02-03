@@ -8,7 +8,7 @@ use warnings;
 use Carp qw();
 use File::Copy qw();
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub _keywords { qw(
     install_hook

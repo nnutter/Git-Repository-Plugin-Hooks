@@ -12,13 +12,19 @@ Git::Repository::Plugin::Hooks - Work with hooks in a Git::Repository
 
 # DESCRIPTION
 
-Git::Repository::Plugin::Hooks is ...
+Git::Repository::Plugin::Hooks adds the `install_hook` and `hook_path`
+methods to a Git::Repository.
 
 # METHODS
 
 ## install\_hook($source, $target)
 
 Install a `$target`, e.g. 'pre-receive', hook into the repository.
+
+## hook\_path($target)
+
+Returns the path to a hook of the type specified by `$target`.  See `man
+githooks` for examples, e.g. `pre-commit`.
 
 # LICENSE
 

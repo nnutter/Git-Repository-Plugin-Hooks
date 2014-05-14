@@ -53,13 +53,19 @@ Git::Repository::Plugin::Hooks - Work with hooks in a Git::Repository
 
 =head1 DESCRIPTION
 
-Git::Repository::Plugin::Hooks is ...
+Git::Repository::Plugin::Hooks adds the C<install_hook> and C<hook_path>
+methods to a Git::Repository.
 
 =head1 METHODS
 
 =head2 install_hook($source, $target)
 
 Install a C<$target>, e.g. 'pre-receive', hook into the repository.
+
+=head2 hook_path($target)
+
+Returns the path to a hook of the type specified by C<$target>.  See C<man
+githooks> for examples, e.g. C<pre-commit>.
 
 =head1 LICENSE
 
